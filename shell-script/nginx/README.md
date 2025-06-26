@@ -5,10 +5,12 @@ Este script automatiza o processo de instalação do servidor web **Nginx** em s
 ## 📌 Funcionalidades
 
 - Atualiza os pacotes do sistema
-- Instala o Nginx
+- Verifica se o Nginx já está instalado para evitar reinstalação desnecessária
+- Instala o Nginx (apenas quando necessário)
 - Habilita o Nginx para iniciar automaticamente com o sistema
 - Inicia o serviço Nginx
 - Verifica e mostra o status do serviço após a instalação
+- Exibe o IP público da máquina e a URL de acesso ao servidor Nginx
 - Fornece feedback visual durante a execução com mensagens claras
 
 ## 📂 Arquivo
@@ -58,12 +60,16 @@ chmod +x setup.sh
 $ ./setup.sh
 ➡️ Atualizando pacotes...
 ✅ Pacotes atualizados com sucesso!
+➡️ Verificando instalação do Nginx...
 ➡️ Instalando Nginx...
 ✅ Nginx instalado com sucesso!
 ➡️ Habilitando e iniciando o serviço...
 ✅ Serviço habilitado e iniciado!
 ➡️ Verificando status do Nginx:
 ✅ Nginx está ativo e funcionando corretamente!
+➡️ IP público da máquina:
+✅ IP público: 203.0.113.10
+🌐 Você pode acessar o Nginx em: http://203.0.113.10/
 ```
 
 ## 📄 Licença
