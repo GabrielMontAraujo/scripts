@@ -90,14 +90,4 @@ Contribuições são sempre bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/nova-feature`)
 5. Abra um Pull Request
 
-## 📄 Licença
 
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
-
-## 📞 Contato
-
-HBXcorp - [website](https://hbxcorp.com) - email@hbxcorp.com
-
----
-
-⚡ Desenvolvido com ❤️ pela [HBXcorp](https://github.com/HBXcorp)
