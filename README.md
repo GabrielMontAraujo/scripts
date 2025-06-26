@@ -1,4 +1,4 @@
-# 🚀 HBXcorp Scripts Repository
+# 🚀 Scripts Repository
 
 Bem-vindo ao repositório oficial de scripts da HBXcorp! Este repositório contém uma coleção de scripts úteis para diversas tarefas de automação, configuração e manutenção de sistemas e aplicações.
 
