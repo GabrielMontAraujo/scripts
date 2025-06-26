@@ -8,11 +8,12 @@ Este script automatiza o processo de instalação do servidor web **Nginx** em s
 - Instala o Nginx
 - Habilita o Nginx para iniciar automaticamente com o sistema
 - Inicia o serviço Nginx
-- Mostra o status do serviço após a instalação
+- Verifica e mostra o status do serviço após a instalação
+- Fornece feedback visual durante a execução com mensagens claras
 
 ## 📂 Arquivo
 
-- `install_nginx.sh`: Script principal para instalação do Nginx
+- `setup.sh`: Script principal para instalação do Nginx
 
 ## 💻 Como usar
 
@@ -20,24 +21,24 @@ Este script automatiza o processo de instalação do servidor web **Nginx** em s
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
+git clone https://github.com/HBXcorp/scripts.git
+cd scripts/shell-script/nginx
 
 # Ou crie o script manualmente
-nano install_nginx.sh
+nano setup.sh
 # (Cole o conteúdo do script de instalação)
 ```
 
 ### 2. Torne o script executável
 
 ```bash
-chmod +x install_nginx.sh
+chmod +x setup.sh
 ```
 
 ### 3. Execute o script
 
 ```bash
-./install_nginx.sh
+./setup.sh
 ```
 
 > ⚠️ **Certifique-se de estar executando como um usuário com permissões de sudo.**
@@ -54,14 +55,15 @@ chmod +x install_nginx.sh
 ## 🛠 Exemplo de uso
 
 ```bash
-$ ./install_nginx.sh
-Atualizando pacotes...
-Instalando Nginx...
-Habilitando e iniciando o serviço...
-Status do Nginx:
-● nginx.service - A high performance web server and a reverse proxy server
-   Loaded: loaded (/lib/systemd/system/nginx.service; enabled)
-   Active: active (running)
+$ ./setup.sh
+➡️ Atualizando pacotes...
+✅ Pacotes atualizados com sucesso!
+➡️ Instalando Nginx...
+✅ Nginx instalado com sucesso!
+➡️ Habilitando e iniciando o serviço...
+✅ Serviço habilitado e iniciado!
+➡️ Verificando status do Nginx:
+✅ Nginx está ativo e funcionando corretamente!
 ```
 
 ## 📄 Licença
